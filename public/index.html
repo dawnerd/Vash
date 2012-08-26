@@ -17,12 +17,26 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="format-detection" content="telephone = no">
   <meta name = "viewport" content = "width = device-width, user-scalable = no">
+
+  <script>
+    window.vash = {};
+  </script>
 </head>
 <body>
+  <div id="header">
+    
+  </div>
 
-  <script id="header" type="text/html">
 
-  </script>
+
+  <!-- Load all JS now -->
+  <script src="/ui/vendor/jquery/jquery-1.8.0.min.js"></script>
+  <script src="/ui/vendor/fidel/dist/fidel.min.js"></script>
+
+  <script src="/ui/js/controllers/layoutViewController.js"></script>
+
+  <!-- Main app, always last. -->
+  <script src="/ui/js/app.js"></script>
 
 </body>
 </html>
