@@ -1,0 +1,3 @@
+[submodule "public/ui/vendor/fidel"]
+	path = public/ui/vendor/fidel
+	url = git://github.com/jgallen23/fidel.git
