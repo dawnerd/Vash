@@ -1,0 +1,33 @@
+{
+  "name": "Vash",
+  "version": "0.0.0",
+  "description": "Dashboard for your media",
+  "main": " ",
+  "dependencies": {
+    "stylus": "~0.29.0",
+    "nib": "~0.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dawnerd/Vash.git"
+  },
+  "keywords": [
+    "dashboard",
+    "media",
+    "sickbeard",
+    "sabnzbd",
+    "couch",
+    "potato",
+    "downloader",
+    "video",
+    "management",
+    "torrent",
+    "ipad"
+  ],
+  "author": "Troy Whiteley",
+  "license": "MIT"
+}

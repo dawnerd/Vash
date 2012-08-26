@@ -1,1 +1,1 @@
-stylus --watch lib/styles/ --out public/ui/css/
+stylus --watch lib/styles/ --out public/ui/css/ --include node_modules/nib/lib
