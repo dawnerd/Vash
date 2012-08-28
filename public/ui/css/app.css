@@ -135,23 +135,31 @@ audio:not([controls]),
 [hidden] {
   display: none;
 }
+* {
+  -webkit-touch-callout: none;
+}
+html {
+  height: 100%;
+}
 body {
-  background-color: #090c1f;
+  height: 100%;
 }
 #Header {
   height: 50px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #323250), color-stop(1, #1e1e3c));
-  background: -webkit-linear-gradient(top, #323250 0%, #1e1e3c 100%);
-  background: -moz-linear-gradient(top, #323250 0%, #1e1e3c 100%);
-  background: -o-linear-gradient(top, #323250 0%, #1e1e3c 100%);
-  background: -ms-linear-gradient(top, #323250 0%, #1e1e3c 100%);
-  background: linear-gradient(top, #323250 0%, #1e1e3c 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(227,231,228,0.75)), color-stop(1, rgba(193,201,195,0.75)));
+  background: -webkit-linear-gradient(top, rgba(227,231,228,0.75) 0%, rgba(193,201,195,0.75) 100%);
+  background: -moz-linear-gradient(top, rgba(227,231,228,0.75) 0%, rgba(193,201,195,0.75) 100%);
+  background: -o-linear-gradient(top, rgba(227,231,228,0.75) 0%, rgba(193,201,195,0.75) 100%);
+  background: -ms-linear-gradient(top, rgba(227,231,228,0.75) 0%, rgba(193,201,195,0.75) 100%);
+  background: linear-gradient(top, rgba(227,231,228,0.75) 0%, rgba(193,201,195,0.75) 100%);
   -webkit-box-shadow: 0 2px 5px rgba(10,10,20,0.5);
   box-shadow: 0 2px 5px rgba(10,10,20,0.5);
 }
-#Header .logo {
+#Header .logo a {
+  text-decoration: none;
   font-family: 'Racing Sans One', cursive;
-  color: #fff;
+  color: #474e46;
+  text-shadow: 0 1px 1px #eceeec;
   font-size: 50px;
   padding: 0 10px;
 }
